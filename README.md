@@ -34,24 +34,26 @@ Bot de Telegram con inteligencia artificial para conversación libre (sin censur
 ---
 
 📦 Instalación
-
-1. Clona el repositorio
+ ```bash
+npm install git && telegraf
+```
+ Clona el repositorio
    ```bash
    git clone https://github.com/SergioOficial/Telegram.git
    cd Telegram
    ```
-2. Instala las dependencias
+Instala las dependencias
    ```bash
    npm install
    ```
-3. Configura el token del bot
+Configura el token del bot
    · Abre index.js y reemplaza la constante BOT_TOKEN con el token que te dio @BotFather.
    · También puedes crear un archivo .env y usar process.env.BOT_TOKEN, pero el código actual lo tiene hardcodeado.
-4. Configura tu ID de dueño
+ Configura tu ID de dueño
    · Cambia OWNER_ID por tu ID numérico de Telegram (puedes obtenerlo con @userinfobot).
-5. Ajusta las APIs (opcional)
+ Ajusta las APIs (opcional)
    · El bot usa https://ai.siputzx.my.id para la IA y https://image.pollinations.ai para imágenes. Si deseas usar otras APIs, modifica las URLs correspondientes.
-6. Ejecuta el bot
+ Ejecuta el bot
    ```bash
    node index.js
    ```
