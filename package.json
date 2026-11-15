@@ -1,6 +1,6 @@
 {
   "nsme": "Telegram bot",
-  "version": "1.0.1",
+  "version": "1.1.7",
   "type": "module",
   "dependencies": {
     "axios": "^1.14.0",
