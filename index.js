@@ -2,7 +2,7 @@ import { Telegraf } from 'telegraf';
 import axios from 'axios';
 import fetch from 'node-fetch';
 
-const BOT_TOKEN = '8755783028:AAE2aWyr7qmNpq-acQE2-JcOIkbQ4UZohTY'; // Reemplaza con tu token de @BotFather
+const BOT_TOKEN = '8769277839:AAFDWwmw777I6tqOkvVhctYB887xb9Ci60M'; // Reemplaza con tu token de @BotFather
 const bot = new Telegraf(BOT_TOKEN);
 
 // Configuración del bot
