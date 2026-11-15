@@ -6,9 +6,9 @@ const BOT_TOKEN = '8755783028:AAE2aWyr7qmNpq-acQE2-JcOIkbQ4UZohTY'; // Reemplaza
 const bot = new Telegraf(BOT_TOKEN);
 
 // Configuración del bot
-const botname = '𝐀𝐲𝐚𝐬𝐞';
-const version = '1.0.1';
-const owner = '@SergioGGort'; // o tu usuario de Telegram
+const botname = '𝑺𝒆𝒓𝒈𝒊𝒐';
+const version = '1.1.7';
+const owner = '@SergioGomezGort'; // o tu usuario de Telegram
 const channel = "https://t.me/AyaseBotIA";
 const grupoSoporte = 'https://t.me/+KgwV50l8dxIzYmUx';
 
